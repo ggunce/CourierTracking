@@ -5,7 +5,6 @@ import com.migros.couriertrackingservice.domain.exception.CourierNotFoundExcepti
 import com.migros.couriertrackingservice.mapper.CourierLogMapper;
 import com.migros.couriertrackingservice.mapper.CourierMapper;
 import com.migros.couriertrackingservice.model.dto.Courier;
-import com.migros.couriertrackingservice.model.dto.CourierLocationLog;
 import com.migros.couriertrackingservice.model.dto.Location;
 import com.migros.couriertrackingservice.model.entity.CourierEntity;
 import com.migros.couriertrackingservice.model.entity.CourierLogEntity;

@@ -2,7 +2,6 @@ package com.migros.couriertrackingservice.controller;
 
 import com.migros.couriertrackingservice.controller.endpoint.CourierEndpoint;
 import com.migros.couriertrackingservice.model.dto.Courier;
-import com.migros.couriertrackingservice.model.dto.CourierLocationLog;
 import com.migros.couriertrackingservice.model.request.CreateCourierRequest;
 import com.migros.couriertrackingservice.model.request.UpdateCourierLocationRequest;
 import com.migros.couriertrackingservice.model.response.CourierStoreLogsResponse;
@@ -12,7 +11,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import jakarta.validation.Valid;
 
-import java.util.List;
 import java.util.UUID;
 
 import static com.migros.couriertrackingservice.controller.endpoint.CourierEndpoint.*;

@@ -1,7 +1,6 @@
 package com.migros.couriertrackingservice.service;
 
 import com.migros.couriertrackingservice.model.dto.Courier;
-import com.migros.couriertrackingservice.model.dto.CourierLocationLog;
 import com.migros.couriertrackingservice.model.request.CreateCourierRequest;
 import com.migros.couriertrackingservice.model.request.UpdateCourierLocationRequest;
 import com.migros.couriertrackingservice.model.response.CourierStoreLogsResponse;
